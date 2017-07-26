@@ -194,7 +194,7 @@
 					FA56443E1F27929100B40384 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = SARSE24G85;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					FA5644521F27929400B40384 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -422,6 +422,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fedex.mobile.home;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "80ae72d4-db8e-439d-896c-6202cf9537b9";
+				PROVISIONING_PROFILE_SPECIFIER = FedEx_Home_Development_Profile;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -435,6 +437,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fedex.mobile.home;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "80ae72d4-db8e-439d-896c-6202cf9537b9";
+				PROVISIONING_PROFILE_SPECIFIER = FedEx_Home_Development_Profile;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -516,6 +520,7 @@
 				FA5644691F27929500B40384 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA56446A1F27929500B40384 /* Build configuration list for PBXNativeTarget "jenkinsAppTrialTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +529,7 @@
 				FA56446C1F27929500B40384 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA56446D1F27929500B40384 /* Build configuration list for PBXNativeTarget "jenkinsAppTrialUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +538,7 @@
 				FA56446F1F27929500B40384 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

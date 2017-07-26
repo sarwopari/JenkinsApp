@@ -10,7 +10,8 @@ import XCTest
 var app: XCUIApplication!
 
 class jenkinsAppTrialUITests: XCTestCase {
-        
+    
+    
     override func setUp() {
         super.setUp()
         continueAfterFailure = false

@@ -199,13 +199,13 @@
 					FA5644521F27929400B40384 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = WMTDNGH9ZN;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						TestTargetID = FA56443E1F27929100B40384;
 					};
 					FA56445D1F27929400B40384 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = WMTDNGH9ZN;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						TestTargetID = FA56443E1F27929100B40384;
 					};
 				};
@@ -428,7 +428,7 @@
 				DEVELOPMENT_TEAM = WMTDNGH9ZN;
 				INFOPLIST_FILE = jenkinsAppTrial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.syntel.jenkinsdemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.syntel.jenkinsAppTutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "fba139fd-4a12-4d8f-9cac-410fdb83b7de";
 				PROVISIONING_PROFILE_SPECIFIER = Generic;
@@ -445,7 +445,7 @@
 				DEVELOPMENT_TEAM = WMTDNGH9ZN;
 				INFOPLIST_FILE = jenkinsAppTrial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.syntel.jenkinsdemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.syntel.jenkinsAppTutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "fba139fd-4a12-4d8f-9cac-410fdb83b7de";
 				PROVISIONING_PROFILE_SPECIFIER = Generic;
@@ -459,13 +459,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Syntel INC";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Syntel INC";
 				DEVELOPMENT_TEAM = WMTDNGH9ZN;
 				INFOPLIST_FILE = jenkinsAppTrialTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = syntel.jenkinsAppTrialTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "fba139fd-4a12-4d8f-9cac-410fdb83b7de";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jenkinsAppTrial.app/jenkinsAppTrial";
@@ -478,13 +478,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Syntel INC";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Syntel INC";
 				DEVELOPMENT_TEAM = WMTDNGH9ZN;
 				INFOPLIST_FILE = jenkinsAppTrialTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = syntel.jenkinsAppTrialTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "fba139fd-4a12-4d8f-9cac-410fdb83b7de";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jenkinsAppTrial.app/jenkinsAppTrial";
@@ -496,13 +496,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Syntel INC";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Syntel INC";
 				DEVELOPMENT_TEAM = WMTDNGH9ZN;
 				INFOPLIST_FILE = jenkinsAppTrialUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = syntel.jenkinsAppTrialUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "fba139fd-4a12-4d8f-9cac-410fdb83b7de";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = jenkinsAppTrial;
@@ -514,13 +514,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Syntel INC";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Syntel INC";
 				DEVELOPMENT_TEAM = WMTDNGH9ZN;
 				INFOPLIST_FILE = jenkinsAppTrialUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = syntel.jenkinsAppTrialUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "fba139fd-4a12-4d8f-9cac-410fdb83b7de";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = jenkinsAppTrial;

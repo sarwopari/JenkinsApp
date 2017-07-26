@@ -431,7 +431,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.syntel.jenkinsdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "fba139fd-4a12-4d8f-9cac-410fdb83b7de";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = Generic;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -448,7 +448,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.syntel.jenkinsdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "fba139fd-4a12-4d8f-9cac-410fdb83b7de";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = Generic;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

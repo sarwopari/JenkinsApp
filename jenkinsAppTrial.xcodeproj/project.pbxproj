@@ -193,18 +193,18 @@
 				TargetAttributes = {
 					FA56443E1F27929100B40384 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = WMTDNGH9ZN;
+						DevelopmentTeam = SARSE24G85;
 						ProvisioningStyle = Manual;
 					};
 					FA5644521F27929400B40384 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = WMTDNGH9ZN;
+						DevelopmentTeam = SARSE24G85;
 						ProvisioningStyle = Manual;
 						TestTargetID = FA56443E1F27929100B40384;
 					};
 					FA56445D1F27929400B40384 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = WMTDNGH9ZN;
+						DevelopmentTeam = SARSE24G85;
 						ProvisioningStyle = Manual;
 						TestTargetID = FA56443E1F27929100B40384;
 					};
@@ -340,11 +340,11 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Syntel INC";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Syntel INC";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: FedEx Corporate Services, Inc. (SARSE24G85)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: FedEx Corporate Services, Inc. (SARSE24G85)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = WMTDNGH9ZN;
+				DEVELOPMENT_TEAM = SARSE24G85;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -364,7 +364,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "fba139fd-4a12-4d8f-9cac-410fdb83b7de";
+				PROVISIONING_PROFILE = "d6f93404-eb48-4a4d-a240-ee51b58537ec";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -394,11 +394,11 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Syntel INC";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Syntel INC";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: FedEx Corporate Services, Inc. (SARSE24G85)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: FedEx Corporate Services, Inc. (SARSE24G85)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = WMTDNGH9ZN;
+				DEVELOPMENT_TEAM = SARSE24G85;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -411,7 +411,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "fba139fd-4a12-4d8f-9cac-410fdb83b7de";
+				PROVISIONING_PROFILE = "d6f93404-eb48-4a4d-a240-ee51b58537ec";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -423,15 +423,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Syntel INC";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Syntel INC";
-				DEVELOPMENT_TEAM = WMTDNGH9ZN;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: FedEx Corporate Services, Inc. (SARSE24G85)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: FedEx Corporate Services, Inc. (SARSE24G85)";
+				DEVELOPMENT_TEAM = SARSE24G85;
 				INFOPLIST_FILE = jenkinsAppTrial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.syntel.jenkinsAppTutorial;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fedex.mobile.home;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "fba139fd-4a12-4d8f-9cac-410fdb83b7de";
-				PROVISIONING_PROFILE_SPECIFIER = Generic;
+				PROVISIONING_PROFILE = "d6f93404-eb48-4a4d-a240-ee51b58537ec";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -440,15 +440,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Syntel INC";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Syntel INC";
-				DEVELOPMENT_TEAM = WMTDNGH9ZN;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: FedEx Corporate Services, Inc. (SARSE24G85)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: FedEx Corporate Services, Inc. (SARSE24G85)";
+				DEVELOPMENT_TEAM = SARSE24G85;
 				INFOPLIST_FILE = jenkinsAppTrial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.syntel.jenkinsAppTutorial;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fedex.mobile.home;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "fba139fd-4a12-4d8f-9cac-410fdb83b7de";
-				PROVISIONING_PROFILE_SPECIFIER = Generic;
+				PROVISIONING_PROFILE = "d6f93404-eb48-4a4d-a240-ee51b58537ec";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -458,14 +458,14 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Syntel INC";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Syntel INC";
-				DEVELOPMENT_TEAM = WMTDNGH9ZN;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: FedEx Corporate Services, Inc. (SARSE24G85)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: FedEx Corporate Services, Inc. (SARSE24G85)";
+				DEVELOPMENT_TEAM = SARSE24G85;
 				INFOPLIST_FILE = jenkinsAppTrialTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = syntel.jenkinsAppTrialTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "fba139fd-4a12-4d8f-9cac-410fdb83b7de";
+				PROVISIONING_PROFILE = "d6f93404-eb48-4a4d-a240-ee51b58537ec";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jenkinsAppTrial.app/jenkinsAppTrial";
@@ -477,14 +477,14 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Syntel INC";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Syntel INC";
-				DEVELOPMENT_TEAM = WMTDNGH9ZN;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: FedEx Corporate Services, Inc. (SARSE24G85)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: FedEx Corporate Services, Inc. (SARSE24G85)";
+				DEVELOPMENT_TEAM = SARSE24G85;
 				INFOPLIST_FILE = jenkinsAppTrialTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = syntel.jenkinsAppTrialTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "fba139fd-4a12-4d8f-9cac-410fdb83b7de";
+				PROVISIONING_PROFILE = "d6f93404-eb48-4a4d-a240-ee51b58537ec";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jenkinsAppTrial.app/jenkinsAppTrial";
@@ -495,14 +495,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Syntel INC";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Syntel INC";
-				DEVELOPMENT_TEAM = WMTDNGH9ZN;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: FedEx Corporate Services, Inc. (SARSE24G85)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: FedEx Corporate Services, Inc. (SARSE24G85)";
+				DEVELOPMENT_TEAM = SARSE24G85;
 				INFOPLIST_FILE = jenkinsAppTrialUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = syntel.jenkinsAppTrialUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "fba139fd-4a12-4d8f-9cac-410fdb83b7de";
+				PROVISIONING_PROFILE = "d6f93404-eb48-4a4d-a240-ee51b58537ec";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = jenkinsAppTrial;
@@ -513,14 +513,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Syntel INC";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Syntel INC";
-				DEVELOPMENT_TEAM = WMTDNGH9ZN;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: FedEx Corporate Services, Inc. (SARSE24G85)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: FedEx Corporate Services, Inc. (SARSE24G85)";
+				DEVELOPMENT_TEAM = SARSE24G85;
 				INFOPLIST_FILE = jenkinsAppTrialUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = syntel.jenkinsAppTrialUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "fba139fd-4a12-4d8f-9cac-410fdb83b7de";
+				PROVISIONING_PROFILE = "d6f93404-eb48-4a4d-a240-ee51b58537ec";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = jenkinsAppTrial;

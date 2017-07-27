@@ -431,7 +431,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.fedex.mobile.home;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "d6f93404-eb48-4a4d-a240-ee51b58537ec";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = FedExHome_AdHoc_Distribution;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -448,7 +448,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.fedex.mobile.home;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "d6f93404-eb48-4a4d-a240-ee51b58537ec";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = FedExHome_AdHoc_Distribution;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

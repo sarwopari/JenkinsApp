@@ -29,15 +29,6 @@
 		FA5BB0701F2B1754009DFB99 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA56444E1F27929300B40384 /* Info.plist */; };
 		FA5BB0711F2B186B009DFB99 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA5644591F27929400B40384 /* Info.plist */; };
 		FA5BB0721F2B1871009DFB99 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA5644641F27929500B40384 /* Info.plist */; };
-		FA5BB0731F2B1884009DFB99 /* jenkinsAppTrialTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = FA5644531F27929400B40384 /* jenkinsAppTrialTests.xctest */; };
-		FA5BB0741F2B1885009DFB99 /* jenkinsAppTrialTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = FA5644531F27929400B40384 /* jenkinsAppTrialTests.xctest */; };
-		FA5BB0751F2B1885009DFB99 /* jenkinsAppTrialTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = FA5644531F27929400B40384 /* jenkinsAppTrialTests.xctest */; };
-		FA5BB0761F2B1888009DFB99 /* jenkinsAppTrial.app in Resources */ = {isa = PBXBuildFile; fileRef = FA56443F1F27929100B40384 /* jenkinsAppTrial.app */; };
-		FA5BB0771F2B1889009DFB99 /* jenkinsAppTrial.app in Resources */ = {isa = PBXBuildFile; fileRef = FA56443F1F27929100B40384 /* jenkinsAppTrial.app */; };
-		FA5BB0781F2B1889009DFB99 /* jenkinsAppTrial.app in Resources */ = {isa = PBXBuildFile; fileRef = FA56443F1F27929100B40384 /* jenkinsAppTrial.app */; };
-		FA5BB0791F2B188C009DFB99 /* jenkinsAppTrialUITests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = FA56445E1F27929400B40384 /* jenkinsAppTrialUITests.xctest */; };
-		FA5BB07A1F2B188C009DFB99 /* jenkinsAppTrialUITests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = FA56445E1F27929400B40384 /* jenkinsAppTrialUITests.xctest */; };
-		FA5BB07B1F2B188D009DFB99 /* jenkinsAppTrialUITests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = FA56445E1F27929400B40384 /* jenkinsAppTrialUITests.xctest */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -262,10 +253,7 @@
 				FA5BB06E1F2B1753009DFB99 /* Info.plist in Resources */,
 				FA56444D1F27929300B40384 /* LaunchScreen.storyboard in Resources */,
 				FA56444A1F27929300B40384 /* Assets.xcassets in Resources */,
-				FA5BB07B1F2B188D009DFB99 /* jenkinsAppTrialUITests.xctest in Resources */,
-				FA5BB0781F2B1889009DFB99 /* jenkinsAppTrial.app in Resources */,
 				FA5644481F27929300B40384 /* Main.storyboard in Resources */,
-				FA5BB0731F2B1884009DFB99 /* jenkinsAppTrialTests.xctest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,13 +261,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA5BB0771F2B1889009DFB99 /* jenkinsAppTrial.app in Resources */,
-				FA5BB0741F2B1885009DFB99 /* jenkinsAppTrialTests.xctest in Resources */,
 				FA5BB06F1F2B1754009DFB99 /* Info.plist in Resources */,
 				FA5BB06C1F2B174E009DFB99 /* LaunchScreen.storyboard in Resources */,
 				FA5BB06A1F2B1749009DFB99 /* Assets.xcassets in Resources */,
 				FA5BB0711F2B186B009DFB99 /* Info.plist in Resources */,
-				FA5BB07A1F2B188C009DFB99 /* jenkinsAppTrialUITests.xctest in Resources */,
 				FA5BB0681F2B1742009DFB99 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,13 +273,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA5BB0761F2B1888009DFB99 /* jenkinsAppTrial.app in Resources */,
-				FA5BB0751F2B1885009DFB99 /* jenkinsAppTrialTests.xctest in Resources */,
 				FA5BB0701F2B1754009DFB99 /* Info.plist in Resources */,
 				FA5BB06D1F2B174F009DFB99 /* LaunchScreen.storyboard in Resources */,
 				FA5BB06B1F2B174A009DFB99 /* Assets.xcassets in Resources */,
 				FA5BB0721F2B1871009DFB99 /* Info.plist in Resources */,
-				FA5BB0791F2B188C009DFB99 /* jenkinsAppTrialUITests.xctest in Resources */,
 				FA5BB0691F2B1746009DFB99 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

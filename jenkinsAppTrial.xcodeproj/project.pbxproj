@@ -12,33 +12,18 @@
 		FA5644481F27929300B40384 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5644461F27929300B40384 /* Main.storyboard */; };
 		FA56444A1F27929300B40384 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5644491F27929300B40384 /* Assets.xcassets */; };
 		FA56444D1F27929300B40384 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA56444B1F27929300B40384 /* LaunchScreen.storyboard */; };
-		FA5644581F27929400B40384 /* jenkinsAppTrialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5644571F27929400B40384 /* jenkinsAppTrialTests.swift */; };
 		FA5644631F27929400B40384 /* jenkinsAppTrialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5644621F27929400B40384 /* jenkinsAppTrialUITests.swift */; };
-		FA5BB0641F2B1729009DFB99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5644421F27929100B40384 /* AppDelegate.swift */; };
 		FA5BB0651F2B1729009DFB99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5644421F27929100B40384 /* AppDelegate.swift */; };
-		FA5BB0661F2B172C009DFB99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5644441F27929200B40384 /* ViewController.swift */; };
 		FA5BB0671F2B172D009DFB99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5644441F27929200B40384 /* ViewController.swift */; };
-		FA5BB0681F2B1742009DFB99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5644461F27929300B40384 /* Main.storyboard */; };
 		FA5BB0691F2B1746009DFB99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5644461F27929300B40384 /* Main.storyboard */; };
-		FA5BB06A1F2B1749009DFB99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5644491F27929300B40384 /* Assets.xcassets */; };
 		FA5BB06B1F2B174A009DFB99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5644491F27929300B40384 /* Assets.xcassets */; };
-		FA5BB06C1F2B174E009DFB99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA56444B1F27929300B40384 /* LaunchScreen.storyboard */; };
 		FA5BB06D1F2B174F009DFB99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA56444B1F27929300B40384 /* LaunchScreen.storyboard */; };
 		FA5BB06E1F2B1753009DFB99 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA56444E1F27929300B40384 /* Info.plist */; };
-		FA5BB06F1F2B1754009DFB99 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA56444E1F27929300B40384 /* Info.plist */; };
 		FA5BB0701F2B1754009DFB99 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA56444E1F27929300B40384 /* Info.plist */; };
-		FA5BB0711F2B186B009DFB99 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA5644591F27929400B40384 /* Info.plist */; };
 		FA5BB0721F2B1871009DFB99 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA5644641F27929500B40384 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FA5644541F27929400B40384 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA5644371F27929000B40384 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FA56443E1F27929100B40384;
-			remoteInfo = jenkinsAppTrial;
-		};
 		FA56445F1F27929400B40384 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FA5644371F27929000B40384 /* Project object */;
@@ -56,7 +41,6 @@
 		FA5644491F27929300B40384 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA56444C1F27929300B40384 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA56444E1F27929300B40384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA5644531F27929400B40384 /* jenkinsAppTrialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jenkinsAppTrialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA5644571F27929400B40384 /* jenkinsAppTrialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jenkinsAppTrialTests.swift; sourceTree = "<group>"; };
 		FA5644591F27929400B40384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA56445E1F27929400B40384 /* jenkinsAppTrialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jenkinsAppTrialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,13 +50,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		FA56443C1F27929100B40384 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA5644501F27929400B40384 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -103,7 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				FA56443F1F27929100B40384 /* jenkinsAppTrial.app */,
-				FA5644531F27929400B40384 /* jenkinsAppTrialTests.xctest */,
 				FA56445E1F27929400B40384 /* jenkinsAppTrialUITests.xctest */,
 			);
 			name = Products;
@@ -160,24 +136,6 @@
 			productReference = FA56443F1F27929100B40384 /* jenkinsAppTrial.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FA5644521F27929400B40384 /* jenkinsAppTrialTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FA56446A1F27929500B40384 /* Build configuration list for PBXNativeTarget "jenkinsAppTrialTests" */;
-			buildPhases = (
-				FA56444F1F27929400B40384 /* Sources */,
-				FA5644501F27929400B40384 /* Frameworks */,
-				FA5644511F27929400B40384 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FA5644551F27929400B40384 /* PBXTargetDependency */,
-			);
-			name = jenkinsAppTrialTests;
-			productName = jenkinsAppTrialTests;
-			productReference = FA5644531F27929400B40384 /* jenkinsAppTrialTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		FA56445D1F27929400B40384 /* jenkinsAppTrialUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA56446D1F27929500B40384 /* Build configuration list for PBXNativeTarget "jenkinsAppTrialUITests" */;
@@ -211,12 +169,6 @@
 						DevelopmentTeam = SARSE24G85;
 						ProvisioningStyle = Manual;
 					};
-					FA5644521F27929400B40384 = {
-						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = SARSE24G85;
-						ProvisioningStyle = Manual;
-						TestTargetID = FA56443E1F27929100B40384;
-					};
 					FA56445D1F27929400B40384 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = SARSE24G85;
@@ -239,7 +191,6 @@
 			projectRoot = "";
 			targets = (
 				FA56443E1F27929100B40384 /* jenkinsAppTrial */,
-				FA5644521F27929400B40384 /* jenkinsAppTrialTests */,
 				FA56445D1F27929400B40384 /* jenkinsAppTrialUITests */,
 			);
 		};
@@ -254,18 +205,6 @@
 				FA56444D1F27929300B40384 /* LaunchScreen.storyboard in Resources */,
 				FA56444A1F27929300B40384 /* Assets.xcassets in Resources */,
 				FA5644481F27929300B40384 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA5644511F27929400B40384 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FA5BB06F1F2B1754009DFB99 /* Info.plist in Resources */,
-				FA5BB06C1F2B174E009DFB99 /* LaunchScreen.storyboard in Resources */,
-				FA5BB06A1F2B1749009DFB99 /* Assets.xcassets in Resources */,
-				FA5BB0711F2B186B009DFB99 /* Info.plist in Resources */,
-				FA5BB0681F2B1742009DFB99 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,16 +232,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA56444F1F27929400B40384 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FA5BB0661F2B172C009DFB99 /* ViewController.swift in Sources */,
-				FA5BB0641F2B1729009DFB99 /* AppDelegate.swift in Sources */,
-				FA5644581F27929400B40384 /* jenkinsAppTrialTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FA56445A1F27929400B40384 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -316,11 +245,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FA5644551F27929400B40384 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FA56443E1F27929100B40384 /* jenkinsAppTrial */;
-			targetProxy = FA5644541F27929400B40384 /* PBXContainerItemProxy */;
-		};
 		FA5644601F27929400B40384 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FA56443E1F27929100B40384 /* jenkinsAppTrial */;
@@ -371,7 +295,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: FedEx Corporate Services, Inc. (SARSE24G85)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: FedEx Corporate Services, Inc. (SARSE24G85)";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: FedEx Corporate Services, Inc. (SARSE24G85)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = SARSE24G85;
@@ -394,7 +318,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "d6f93404-eb48-4a4d-a240-ee51b58537ec";
+				PROVISIONING_PROFILE = "eea29f60-1435-4c7f-b3c5-c6026e4acd37";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -441,7 +365,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "d6f93404-eb48-4a4d-a240-ee51b58537ec";
+				PROVISIONING_PROFILE = "eea29f60-1435-4c7f-b3c5-c6026e4acd37";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -453,15 +377,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: FedEx Corporate Services, Inc. (SARSE24G85)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: FedEx Corporate Services, Inc. (SARSE24G85)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mangesh Bhavsar (6N8GJ99Z82)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mangesh Bhavsar (6N8GJ99Z82)";
 				DEVELOPMENT_TEAM = SARSE24G85;
 				INFOPLIST_FILE = jenkinsAppTrial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fedex.mobile.home;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "d6f93404-eb48-4a4d-a240-ee51b58537ec";
-				PROVISIONING_PROFILE_SPECIFIER = FedExHome_AdHoc_Distribution;
+				PROVISIONING_PROFILE = "eea29f60-1435-4c7f-b3c5-c6026e4acd37";
+				PROVISIONING_PROFILE_SPECIFIER = FedEx_Home_Development_Profile;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -470,54 +394,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: FedEx Corporate Services, Inc. (SARSE24G85)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: FedEx Corporate Services, Inc. (SARSE24G85)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mangesh Bhavsar (6N8GJ99Z82)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mangesh Bhavsar (6N8GJ99Z82)";
 				DEVELOPMENT_TEAM = SARSE24G85;
 				INFOPLIST_FILE = jenkinsAppTrial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fedex.mobile.home;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "d6f93404-eb48-4a4d-a240-ee51b58537ec";
-				PROVISIONING_PROFILE_SPECIFIER = FedExHome_AdHoc_Distribution;
+				PROVISIONING_PROFILE = "eea29f60-1435-4c7f-b3c5-c6026e4acd37";
+				PROVISIONING_PROFILE_SPECIFIER = FedEx_Home_Development_Profile;
 				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		FA56446B1F27929500B40384 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: FedEx Corporate Services, Inc. (SARSE24G85)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: FedEx Corporate Services, Inc. (SARSE24G85)";
-				DEVELOPMENT_TEAM = SARSE24G85;
-				INFOPLIST_FILE = jenkinsAppTrialTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = syntel.jenkinsAppTrialTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jenkinsAppTrial.app/jenkinsAppTrial";
-			};
-			name = Debug;
-		};
-		FA56446C1F27929500B40384 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: FedEx Corporate Services, Inc. (SARSE24G85)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: FedEx Corporate Services, Inc. (SARSE24G85)";
-				DEVELOPMENT_TEAM = SARSE24G85;
-				INFOPLIST_FILE = jenkinsAppTrialTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = syntel.jenkinsAppTrialTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jenkinsAppTrial.app/jenkinsAppTrial";
 			};
 			name = Release;
 		};
@@ -525,15 +411,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: FedEx Corporate Services, Inc. (SARSE24G85)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: FedEx Corporate Services, Inc. (SARSE24G85)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mangesh Bhavsar (6N8GJ99Z82)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mangesh Bhavsar (6N8GJ99Z82)";
 				DEVELOPMENT_TEAM = SARSE24G85;
 				INFOPLIST_FILE = jenkinsAppTrialUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = syntel.jenkinsAppTrialUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fedex.mobile.home;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "eea29f60-1435-4c7f-b3c5-c6026e4acd37";
+				PROVISIONING_PROFILE_SPECIFIER = FedEx_Home_Development_Profile;
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = jenkinsAppTrial;
 			};
@@ -543,15 +429,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: FedEx Corporate Services, Inc. (SARSE24G85)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: FedEx Corporate Services, Inc. (SARSE24G85)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mangesh Bhavsar (6N8GJ99Z82)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mangesh Bhavsar (6N8GJ99Z82)";
 				DEVELOPMENT_TEAM = SARSE24G85;
 				INFOPLIST_FILE = jenkinsAppTrialUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = syntel.jenkinsAppTrialUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fedex.mobile.home;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "eea29f60-1435-4c7f-b3c5-c6026e4acd37";
+				PROVISIONING_PROFILE_SPECIFIER = FedEx_Home_Development_Profile;
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = jenkinsAppTrial;
 			};
@@ -574,15 +460,6 @@
 			buildConfigurations = (
 				FA5644681F27929500B40384 /* Debug */,
 				FA5644691F27929500B40384 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FA56446A1F27929500B40384 /* Build configuration list for PBXNativeTarget "jenkinsAppTrialTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FA56446B1F27929500B40384 /* Debug */,
-				FA56446C1F27929500B40384 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

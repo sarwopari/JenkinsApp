@@ -295,8 +295,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Mangesh Bhavsar (6N8GJ99Z82)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mangesh Bhavsar (6N8GJ99Z82)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: FedEx Corporate Services, Inc. (SARSE24G85)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: FedEx Corporate Services, Inc. (SARSE24G85)";
 				DEVELOPMENT_TEAM = SARSE24G85;
 				INFOPLIST_FILE = jenkinsAppTrial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -312,8 +312,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Mangesh Bhavsar (6N8GJ99Z82)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mangesh Bhavsar (6N8GJ99Z82)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: FedEx Corporate Services, Inc. (SARSE24G85)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: FedEx Corporate Services, Inc. (SARSE24G85)";
 				DEVELOPMENT_TEAM = SARSE24G85;
 				INFOPLIST_FILE = jenkinsAppTrial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

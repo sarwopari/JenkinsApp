@@ -13,7 +13,18 @@
 		FA56444A1F27929300B40384 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5644491F27929300B40384 /* Assets.xcassets */; };
 		FA56444D1F27929300B40384 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA56444B1F27929300B40384 /* LaunchScreen.storyboard */; };
 		FA5BB06E1F2B1753009DFB99 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA56444E1F27929300B40384 /* Info.plist */; };
+		FA5BBBF21F3C45DE0043D5AC /* jenkinsAppTrialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5BBBF11F3C45DE0043D5AC /* jenkinsAppTrialTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA5BBBF41F3C45DE0043D5AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA5644371F27929000B40384 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA56443E1F27929100B40384;
+			remoteInfo = jenkinsAppTrial;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		FA56443F1F27929100B40384 /* jenkinsAppTrial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jenkinsAppTrial.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -27,10 +38,20 @@
 		FA5644591F27929400B40384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA5644621F27929400B40384 /* jenkinsAppTrialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jenkinsAppTrialUITests.swift; sourceTree = "<group>"; };
 		FA5644641F27929500B40384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA5BBBEF1F3C45DE0043D5AC /* jenkinsAppTrialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jenkinsAppTrialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5BBBF11F3C45DE0043D5AC /* jenkinsAppTrialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jenkinsAppTrialTests.swift; sourceTree = "<group>"; };
+		FA5BBBF31F3C45DE0043D5AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		FA56443C1F27929100B40384 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5BBBEC1F3C45DE0043D5AC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -46,6 +67,7 @@
 				FA5644411F27929100B40384 /* jenkinsAppTrial */,
 				FA5644561F27929400B40384 /* jenkinsAppTrialTests */,
 				FA5644611F27929400B40384 /* jenkinsAppTrialUITests */,
+				FA5BBBF01F3C45DE0043D5AC /* jenkinsAppTrialTests */,
 				FA5644401F27929100B40384 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				FA56443F1F27929100B40384 /* jenkinsAppTrial.app */,
+				FA5BBBEF1F3C45DE0043D5AC /* jenkinsAppTrialTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,6 +112,15 @@
 			path = jenkinsAppTrialUITests;
 			sourceTree = "<group>";
 		};
+		FA5BBBF01F3C45DE0043D5AC /* jenkinsAppTrialTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA5BBBF11F3C45DE0043D5AC /* jenkinsAppTrialTests.swift */,
+				FA5BBBF31F3C45DE0043D5AC /* Info.plist */,
+			);
+			path = jenkinsAppTrialTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,6 +141,24 @@
 			productReference = FA56443F1F27929100B40384 /* jenkinsAppTrial.app */;
 			productType = "com.apple.product-type.application";
 		};
+		FA5BBBEE1F3C45DE0043D5AC /* jenkinsAppTrialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5BBBF81F3C45DE0043D5AC /* Build configuration list for PBXNativeTarget "jenkinsAppTrialTests" */;
+			buildPhases = (
+				FA5BBBEB1F3C45DE0043D5AC /* Sources */,
+				FA5BBBEC1F3C45DE0043D5AC /* Frameworks */,
+				FA5BBBED1F3C45DE0043D5AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA5BBBF51F3C45DE0043D5AC /* PBXTargetDependency */,
+			);
+			name = jenkinsAppTrialTests;
+			productName = jenkinsAppTrialTests;
+			productReference = FA5BBBEF1F3C45DE0043D5AC /* jenkinsAppTrialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -123,6 +173,12 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = SARSE24G85;
 						ProvisioningStyle = Manual;
+					};
+					FA5BBBEE1F3C45DE0043D5AC = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = SARSE24G85;
+						ProvisioningStyle = Manual;
+						TestTargetID = FA56443E1F27929100B40384;
 					};
 				};
 			};
@@ -140,6 +196,7 @@
 			projectRoot = "";
 			targets = (
 				FA56443E1F27929100B40384 /* jenkinsAppTrial */,
+				FA5BBBEE1F3C45DE0043D5AC /* jenkinsAppTrialTests */,
 			);
 		};
 /* End PBXProject section */
@@ -156,6 +213,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FA5BBBED1F3C45DE0043D5AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -168,7 +232,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FA5BBBEB1F3C45DE0043D5AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5BBBF21F3C45DE0043D5AC /* jenkinsAppTrialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA5BBBF51F3C45DE0043D5AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA56443E1F27929100B40384 /* jenkinsAppTrial */;
+			targetProxy = FA5BBBF41F3C45DE0043D5AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		FA5644461F27929300B40384 /* Main.storyboard */ = {
@@ -325,6 +405,38 @@
 			};
 			name = Release;
 		};
+		FA5BBBF61F3C45DE0043D5AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: FedEx Corporate Services, Inc. (SARSE24G85)";
+				DEVELOPMENT_TEAM = SARSE24G85;
+				INFOPLIST_FILE = jenkinsAppTrialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fedex.mobile.home;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = FedExHome_AdHoc_Distribution;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jenkinsAppTrial.app/jenkinsAppTrial";
+			};
+			name = Debug;
+		};
+		FA5BBBF71F3C45DE0043D5AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: FedEx Corporate Services, Inc. (SARSE24G85)";
+				DEVELOPMENT_TEAM = SARSE24G85;
+				INFOPLIST_FILE = jenkinsAppTrialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fedex.mobile.home;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = FedExHome_AdHoc_Distribution;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jenkinsAppTrial.app/jenkinsAppTrial";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -345,6 +457,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		FA5BBBF81F3C45DE0043D5AC /* Build configuration list for PBXNativeTarget "jenkinsAppTrialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5BBBF61F3C45DE0043D5AC /* Debug */,
+				FA5BBBF71F3C45DE0043D5AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

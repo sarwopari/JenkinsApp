@@ -2,12 +2,11 @@
 //  jenkinsAppTrialTests.swift
 //  jenkinsAppTrialTests
 //
-//  Created by Syntel on 7/25/17.
+//  Created by Syntel on 8/10/17.
 //  Copyright © 2017 Syntel. All rights reserved.
 //
 
 import XCTest
-@testable import jenkinsAppTrial
 
 class jenkinsAppTrialTests: XCTestCase {
     
